@@ -1,38 +1,20 @@
 ---
-title: Hello World
+title: Hello-World
+date: 2023-02-16 22:48:14
+tags: test
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
-## Quick Start
+In this article,I will wirte a single program which can print a string "Hello,World" on your screen.
 
-### Create a new post
+## A simple program
 
-``` bash
-$ hexo new "My New Post"
+You can use this program to print a string on your screen.
+
+```C
+#include<stdio.h>
+int main()
+{
+    printf("Hello,World");
+    return 0;
+}
 ```
-
-More info: [Writing](https://hexo.io/docs/writing.html)
-
-### Run server
-
-``` bash
-$ hexo server
-```
-
-More info: [Server](https://hexo.io/docs/server.html)
-
-### Generate static files
-
-``` bash
-$ hexo generate
-```
-
-More info: [Generating](https://hexo.io/docs/generating.html)
-
-### Deploy to remote sites
-
-``` bash
-$ hexo deploy
-```
-
-More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
