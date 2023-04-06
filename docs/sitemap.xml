@@ -77,7 +77,7 @@
   </url>
   
   <url>
-    <loc>https://snowways.top/tags/Windows/</loc>
+    <loc>https://snowways.top/tags/Windows%E7%BC%96%E7%A8%8B/</loc>
     <lastmod>2023-04-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -94,6 +94,13 @@
   
   <url>
     <loc>https://snowways.top/categories/%E7%BC%96%E7%A8%8B/C/</loc>
+    <lastmod>2023-04-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://snowways.top/categories/%E7%BC%96%E7%A8%8B/C/Windows/</loc>
     <lastmod>2023-04-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
