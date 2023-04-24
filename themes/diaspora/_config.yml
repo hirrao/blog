@@ -58,7 +58,7 @@ beian:
     # 是否在主页面最底下显示备案信息(虽然丑，但是完全满足规定要求)
     enableFooter: false
     # 备案号
-    beianInfo: 鄂ICP备2023000680号-1
+    beianInfo: 
     # 链接地址
     link: http://www.beian.miit.gov.cn
 

@@ -2,45 +2,45 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://snowways.top/2023/04/06/%E5%85%B3%E4%BA%8E%E6%88%91%E5%9C%A8%E4%BD%BF%E7%94%A8Cmake%E7%94%9F%E6%88%90DLL%E7%9A%84%E6%97%B6%E5%80%99%E8%B8%A9%E8%BF%87%E7%9A%84%E5%9D%91/</loc>
+    <loc>https://www.hirrao.com/tags/index.html</loc>
     
-    <lastmod>2023-04-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://snowways.top/search/index.html</loc>
-    
-    <lastmod>2023-04-06</lastmod>
+    <lastmod>2023-04-24</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://snowways.top/tags/index.html</loc>
+    <loc>https://www.hirrao.com/search/index.html</loc>
     
-    <lastmod>2023-04-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://snowways.top/categories/index.html</loc>
-    
-    <lastmod>2023-04-06</lastmod>
+    <lastmod>2023-04-24</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://snowways.top/about/index.html</loc>
+    <loc>https://www.hirrao.com/categories/index.html</loc>
     
-    <lastmod>2023-04-06</lastmod>
+    <lastmod>2023-04-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hirrao.com/about/index.html</loc>
+    
+    <lastmod>2023-04-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hirrao.com/2023/04/06/%E5%85%B3%E4%BA%8E%E6%88%91%E5%9C%A8%E4%BD%BF%E7%94%A8Cmake%E7%94%9F%E6%88%90DLL%E7%9A%84%E6%97%B6%E5%80%99%E8%B8%A9%E8%BF%87%E7%9A%84%E5%9D%91/</loc>
+    
+    <lastmod>2023-04-24</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -48,37 +48,37 @@
   
 
   <url>
-    <loc>https://snowways.top/</loc>
-    <lastmod>2023-04-06</lastmod>
+    <loc>https://www.hirrao.com/</loc>
+    <lastmod>2023-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>https://snowways.top/tags/C/</loc>
-    <lastmod>2023-04-06</lastmod>
+    <loc>https://www.hirrao.com/tags/C/</loc>
+    <lastmod>2023-04-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://snowways.top/tags/%E7%BC%96%E7%A8%8B/</loc>
-    <lastmod>2023-04-06</lastmod>
+    <loc>https://www.hirrao.com/tags/%E7%BC%96%E7%A8%8B/</loc>
+    <lastmod>2023-04-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://snowways.top/tags/CMAKE/</loc>
-    <lastmod>2023-04-06</lastmod>
+    <loc>https://www.hirrao.com/tags/CMAKE/</loc>
+    <lastmod>2023-04-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://snowways.top/tags/Windows%E7%BC%96%E7%A8%8B/</loc>
-    <lastmod>2023-04-06</lastmod>
+    <loc>https://www.hirrao.com/tags/Windows%E7%BC%96%E7%A8%8B/</loc>
+    <lastmod>2023-04-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -86,22 +86,22 @@
 
   
   <url>
-    <loc>https://snowways.top/categories/%E7%BC%96%E7%A8%8B/</loc>
-    <lastmod>2023-04-06</lastmod>
+    <loc>https://www.hirrao.com/categories/%E7%BC%96%E7%A8%8B/</loc>
+    <lastmod>2023-04-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://snowways.top/categories/%E7%BC%96%E7%A8%8B/C/</loc>
-    <lastmod>2023-04-06</lastmod>
+    <loc>https://www.hirrao.com/categories/%E7%BC%96%E7%A8%8B/C/</loc>
+    <lastmod>2023-04-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://snowways.top/categories/%E7%BC%96%E7%A8%8B/C/Windows/</loc>
-    <lastmod>2023-04-06</lastmod>
+    <loc>https://www.hirrao.com/categories/%E7%BC%96%E7%A8%8B/C/Windows/</loc>
+    <lastmod>2023-04-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
