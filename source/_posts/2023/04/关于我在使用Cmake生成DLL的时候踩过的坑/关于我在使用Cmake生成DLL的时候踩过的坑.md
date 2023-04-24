@@ -10,6 +10,7 @@ tags:
  - CMAKE
  - Windows编程
 date: 2023-04-06 17:00:00
+permalink: 2023/04/关于我在使用Cmake生成DLL的时候踩过的坑
 ---
 
 本来老师要求用Visual Studio来做C++的大作业的，但是Visual Studio实在是太卡了，所以，我选择使用Cmake+Viual Studio Code来写这样一个东西，记录一下其中踩过的坑
