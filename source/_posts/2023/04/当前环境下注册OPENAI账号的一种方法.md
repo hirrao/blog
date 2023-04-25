@@ -7,7 +7,6 @@ tags:
  - OPENAI
  - AI
 date: 2023-04-24 21:00:00
-permalink: 2023/04/当前环境下注册OPENAI账号的一种方法
 ---
 
 随着OPENAI系列产品的大火，OPENAI注册和使用的要求也越来越高，比如目前大部分代理的IP地址都无法进入platform.openai.com登录账号，无法绕过Cloudflare的验证，更不用说注册账号了，对于只使用API的人来说，在使用API时OPENAI并不检测你的IP地址，因此只需要有一个账号就可以正常使用，目前购买账号价格水涨船高，并且号商批量注册的账号被封禁概率也会明显变大，自己注册账号仍然是最经济合理的选择，下面提供一种可能可行的方法来注册一个OPENAI账号
@@ -32,7 +31,7 @@ permalink: 2023/04/当前环境下注册OPENAI账号的一种方法
 ## 购买云服务器
 
 进入[阿里云云服务器ECS控制台](https://ecs-buy.aliyun.com/)，购买一个按量付费的实例，如
-![aliyun_cloud](./img/aliyun_cloud.png)
+![aliyun_cloud](/img/aliyun_cloud.png)
 建议内存至少2G，CPU一核或两核足以，因为用的时间短，完全可以使用按量付费
 
 因为后面需要远程桌面要服务器上面去，而Linux系统不自带桌面，所以系统选择Windows server 2022，中文与英文均可，建议不要选择2022之前的版本，因为默认浏览器为IE，不支持注册，还需要自己更换浏览器
@@ -43,8 +42,8 @@ permalink: 2023/04/当前环境下注册OPENAI账号的一种方法
 
 我最后的配置是这样的
 
-![config_1](./img/config_1.png)
-![config_2](./img/config_2.png)
+![config_1](/img/config_1.png)
+![config_2](/img/config_2.png)
 
 之后直接下单，创建实例后下载RDP文件，等待完全启动后直接打开RDP文件使用远程桌面连接到服务器上
 
