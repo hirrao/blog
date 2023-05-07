@@ -30,8 +30,8 @@ date: 2023-04-24 21:00:00
 
 ## 购买云服务器
 
-进入[阿里云云服务器ECS控制台](https://ecs-buy.aliyun.com/)，购买一个按量付费的实例，如
-![aliyun_cloud](2023/04/当前环境下注册OPENAI账号的一种方法/aliyun_cloud.png)
+进入[阿里云云服务器ECS控制台](https://ecs-buy.aliyun.com/)，购买一个抢占型实例，如
+![alibaba_cloud](2023/04/当前环境下注册OPENAI账号的一种方法/alibaba_cloud.png)
 建议内存至少2G，CPU一核或两核足以，因为用的时间短，完全可以使用按量付费
 
 因为后面需要远程桌面要服务器上面去，而Linux系统不自带桌面，所以系统选择Windows server 2022，中文与英文均可，建议不要选择2022之前的版本，因为默认浏览器为IE，不支持注册，还需要自己更换浏览器
@@ -44,6 +44,8 @@ date: 2023-04-24 21:00:00
 
 ![config_1](2023/04/当前环境下注册OPENAI账号的一种方法/config_1.png)
 ![config_2](2023/04/当前环境下注册OPENAI账号的一种方法/config_2.png)
+
+抢占型实例价格变动会比较大，可能不会是目前这个价格，但是基本上会比按量付费便宜，建议勾上无确定使用时长和自动出价，虽然理论上一个小时完全够完成全部操作，但还是以防万一
 
 之后直接下单，创建实例后下载RDP文件，等待完全启动后直接打开RDP文件使用远程桌面连接到服务器上
 
@@ -58,5 +60,5 @@ date: 2023-04-24 21:00:00
 # 注意事项
 
 1. 本文是仅使用APIkey的注册教程，建议注册后立刻[获取API key](https://platform.openai.com/account/api-keys)，然后创建一个新的API key，记录下来，之后建议不要在任何地点以任意形式登录OPENAI账号，减少被封号的可能
-2. 不要在香港，台湾等代理下使用API key，因OPENAI在中国仅仅受到了DNS干扰，可以通过改hosts绕过，也不要在直连环境下尝试使用API key，这种情况下有很大概率被封号
+2. 不要在香港，台湾等代理下使用API key，也不要在大陆直连环境下使用修改hosts绕过干扰的方式尝试使用API key，这种情况下有很大概率被封号
 3. 正常使用API key可以试试这两个扩展[ChatHub](https://chrome.google.com/webstore/detail/chathub-all-in-one-chatbo/iaakpnchhognanibcahlpcplchdfmgma)，[OpenAi Translator](https://chrome.google.com/webstore/detail/openai-translator/ogjibjphoadhljaoicdnjnmgokohngcc)

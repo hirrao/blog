@@ -78,19 +78,20 @@
 </ol>
 <h2 id="为什么需要谷歌账号"><a href="#为什么需要谷歌账号" class="headerlink" title="为什么需要谷歌账号"></a>为什么需要谷歌账号</h2><p>目前OPENAI的注册逐渐收窄，只有Gmail可以稳定注册，而outlook邮箱可以概率使用，其他邮箱完全不能使用</p>
 <h2 id="为什么推荐阿里云"><a href="#为什么推荐阿里云" class="headerlink" title="为什么推荐阿里云"></a>为什么推荐阿里云</h2><p>注册需要一个用的人少，并且和cloudflare较近的服务器，阿里云作为国内云服务商，很少有人使用阿里云服务器来提供代理服务，并且提供了印度尼西亚这种节点，可以节省成本</p>
-<h1 id="具体操作"><a href="#具体操作" class="headerlink" title="具体操作"></a>具体操作</h1><h2 id="购买云服务器"><a href="#购买云服务器" class="headerlink" title="购买云服务器"></a>购买云服务器</h2><p>进入<a target="_blank" rel="noopener" href="https://ecs-buy.aliyun.com/">阿里云云服务器ECS控制台</a>，购买一个按量付费的实例，如<br><img src="/2023/04/%E5%BD%93%E5%89%8D%E7%8E%AF%E5%A2%83%E4%B8%8B%E6%B3%A8%E5%86%8COPENAI%E8%B4%A6%E5%8F%B7%E7%9A%84%E4%B8%80%E7%A7%8D%E6%96%B9%E6%B3%95/aliyun_cloud.png" alt="aliyun_cloud"><br>建议内存至少2G，CPU一核或两核足以，因为用的时间短，完全可以使用按量付费</p>
+<h1 id="具体操作"><a href="#具体操作" class="headerlink" title="具体操作"></a>具体操作</h1><h2 id="购买云服务器"><a href="#购买云服务器" class="headerlink" title="购买云服务器"></a>购买云服务器</h2><p>进入<a target="_blank" rel="noopener" href="https://ecs-buy.aliyun.com/">阿里云云服务器ECS控制台</a>，购买一个抢占型实例，如<br><img src="/2023/04/%E5%BD%93%E5%89%8D%E7%8E%AF%E5%A2%83%E4%B8%8B%E6%B3%A8%E5%86%8COPENAI%E8%B4%A6%E5%8F%B7%E7%9A%84%E4%B8%80%E7%A7%8D%E6%96%B9%E6%B3%95/alibaba_cloud.png" alt="alibaba_cloud"><br>建议内存至少2G，CPU一核或两核足以，因为用的时间短，完全可以使用按量付费</p>
 <p>因为后面需要远程桌面要服务器上面去，而Linux系统不自带桌面，所以系统选择Windows server 2022，中文与英文均可，建议不要选择2022之前的版本，因为默认浏览器为IE，不支持注册，还需要自己更换浏览器</p>
 <p>可以把默认的ESSD云盘改为高效云盘，便宜一点点</p>
 <p>流量计费建议选择按量计费，因为本身使用不了多少上行流量，还可能抹零直接全部抹掉</p>
 <p>我最后的配置是这样的</p>
 <p><img src="/2023/04/%E5%BD%93%E5%89%8D%E7%8E%AF%E5%A2%83%E4%B8%8B%E6%B3%A8%E5%86%8COPENAI%E8%B4%A6%E5%8F%B7%E7%9A%84%E4%B8%80%E7%A7%8D%E6%96%B9%E6%B3%95/config_1.png" alt="config_1"><br><img src="/2023/04/%E5%BD%93%E5%89%8D%E7%8E%AF%E5%A2%83%E4%B8%8B%E6%B3%A8%E5%86%8COPENAI%E8%B4%A6%E5%8F%B7%E7%9A%84%E4%B8%80%E7%A7%8D%E6%96%B9%E6%B3%95/config_2.png" alt="config_2"></p>
+<p>抢占型实例价格变动会比较大，可能不会是目前这个价格，但是基本上会比按量付费便宜，建议勾上无确定使用时长和自动出价，虽然理论上一个小时完全够完成全部操作，但还是以防万一</p>
 <p>之后直接下单，创建实例后下载RDP文件，等待完全启动后直接打开RDP文件使用远程桌面连接到服务器上</p>
 <h2 id="注册账号"><a href="#注册账号" class="headerlink" title="注册账号"></a>注册账号</h2><p>直接进入 <a target="_blank" rel="noopener" href="https://platform.openai.com/">https://platform.openai.com</a> （或者 <a target="_blank" rel="noopener" href="https://chat.openai.com/">https://chat.openai.com</a> 也行），然后点击sign up，建议直接使用邮箱注册而不是选择下方的sign in with google，之后验证邮箱（这里建议使用这个电脑注册谷歌账号，或者在自己电脑上注册后用自己电脑登录邮箱，防止谷歌账号被风控），一直到验证手机号这个环节</p>
 <p>之后打开sms-active，购买一个印度尼西亚的手机号，此时的价格是22.5卢布，是所有手机号里面最便宜的，然后直接输入等待验证即可，如果该手机号5分钟都没有收到验证码，则退款重新购买一个，直到验证成功（这一点没有那么严格，更换几个手机号都没有触发风控）</p>
 <p>之后通过cloudflare的验证（这一步基本上代理都是过不去的，可能还会看你的相应时间来判断是否为代理），此时正常情况下会跳转回注册前的界面，如果提示注册失败，那基本上是此时云服务器的IP有多人使用·（概率应该极低）</p>
 <h1 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h1><ol>
 <li>本文是仅使用APIkey的注册教程，建议注册后立刻<a target="_blank" rel="noopener" href="https://platform.openai.com/account/api-keys">获取API key</a>，然后创建一个新的API key，记录下来，之后建议不要在任何地点以任意形式登录OPENAI账号，减少被封号的可能</li>
-<li>不要在香港，台湾等代理下使用API key，因OPENAI在中国仅仅受到了DNS干扰，可以通过改hosts绕过，也不要在直连环境下尝试使用API key，这种情况下有很大概率被封号</li>
+<li>不要在香港，台湾等代理下使用API key，也不要在大陆直连环境下使用修改hosts绕过干扰的方式尝试使用API key，这种情况下有很大概率被封号</li>
 <li>正常使用API key可以试试这两个扩展<a target="_blank" rel="noopener" href="https://chrome.google.com/webstore/detail/chathub-all-in-one-chatbo/iaakpnchhognanibcahlpcplchdfmgma">ChatHub</a>，<a target="_blank" rel="noopener" href="https://chrome.google.com/webstore/detail/openai-translator/ogjibjphoadhljaoicdnjnmgokohngcc">OpenAi Translator</a></li>
 </ol>
 

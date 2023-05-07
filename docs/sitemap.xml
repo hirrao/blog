@@ -2,9 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.hirrao.com/tags/index.html</loc>
+    <loc>https://www.hirrao.com/2023/04/%E5%BD%93%E5%89%8D%E7%8E%AF%E5%A2%83%E4%B8%8B%E6%B3%A8%E5%86%8COPENAI%E8%B4%A6%E5%8F%B7%E7%9A%84%E4%B8%80%E7%A7%8D%E6%96%B9%E6%B3%95/</loc>
     
-    <lastmod>2023-04-25</lastmod>
+    <lastmod>2023-05-07</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -13,7 +13,16 @@
   <url>
     <loc>https://www.hirrao.com/search/index.html</loc>
     
-    <lastmod>2023-04-25</lastmod>
+    <lastmod>2023-05-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hirrao.com/tags/index.html</loc>
+    
+    <lastmod>2023-05-07</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -22,7 +31,16 @@
   <url>
     <loc>https://www.hirrao.com/categories/index.html</loc>
     
-    <lastmod>2023-04-25</lastmod>
+    <lastmod>2023-05-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hirrao.com/about/%E5%9B%BE%E7%89%87%E6%9D%A5%E6%BA%90/index.html</loc>
+    
+    <lastmod>2023-05-07</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -31,16 +49,7 @@
   <url>
     <loc>https://www.hirrao.com/about/index.html</loc>
     
-    <lastmod>2023-04-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hirrao.com/2023/04/%E5%BD%93%E5%89%8D%E7%8E%AF%E5%A2%83%E4%B8%8B%E6%B3%A8%E5%86%8COPENAI%E8%B4%A6%E5%8F%B7%E7%9A%84%E4%B8%80%E7%A7%8D%E6%96%B9%E6%B3%95/</loc>
-    
-    <lastmod>2023-04-25</lastmod>
+    <lastmod>2023-05-07</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -49,7 +58,7 @@
   <url>
     <loc>https://www.hirrao.com/2023/04/%E5%85%B3%E4%BA%8E%E6%88%91%E5%9C%A8%E4%BD%BF%E7%94%A8Cmake%E7%94%9F%E6%88%90DLL%E7%9A%84%E6%97%B6%E5%80%99%E8%B8%A9%E8%BF%87%E7%9A%84%E5%9D%91/</loc>
     
-    <lastmod>2023-04-25</lastmod>
+    <lastmod>2023-05-07</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -58,7 +67,7 @@
 
   <url>
     <loc>https://www.hirrao.com/</loc>
-    <lastmod>2023-04-25</lastmod>
+    <lastmod>2023-05-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -66,42 +75,42 @@
   
   <url>
     <loc>https://www.hirrao.com/tags/C/</loc>
-    <lastmod>2023-04-25</lastmod>
+    <lastmod>2023-05-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.hirrao.com/tags/%E7%BC%96%E7%A8%8B/</loc>
-    <lastmod>2023-04-25</lastmod>
+    <lastmod>2023-05-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.hirrao.com/tags/CMAKE/</loc>
-    <lastmod>2023-04-25</lastmod>
+    <lastmod>2023-05-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.hirrao.com/tags/Windows%E7%BC%96%E7%A8%8B/</loc>
-    <lastmod>2023-04-25</lastmod>
+    <lastmod>2023-05-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.hirrao.com/tags/OPENAI/</loc>
-    <lastmod>2023-04-25</lastmod>
+    <lastmod>2023-05-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.hirrao.com/tags/AI/</loc>
-    <lastmod>2023-04-25</lastmod>
+    <lastmod>2023-05-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -110,35 +119,35 @@
   
   <url>
     <loc>https://www.hirrao.com/categories/%E7%BC%96%E7%A8%8B/</loc>
-    <lastmod>2023-04-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hirrao.com/categories/%E7%BC%96%E7%A8%8B/C/</loc>
-    <lastmod>2023-04-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hirrao.com/categories/%E7%BC%96%E7%A8%8B/C/Windows/</loc>
-    <lastmod>2023-04-25</lastmod>
+    <lastmod>2023-05-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.hirrao.com/categories/AI/</loc>
-    <lastmod>2023-04-25</lastmod>
+    <lastmod>2023-05-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hirrao.com/categories/%E7%BC%96%E7%A8%8B/C/</loc>
+    <lastmod>2023-05-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.hirrao.com/categories/AI/OPENAI/</loc>
-    <lastmod>2023-04-25</lastmod>
+    <lastmod>2023-05-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hirrao.com/categories/%E7%BC%96%E7%A8%8B/C/Windows/</loc>
+    <lastmod>2023-05-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
