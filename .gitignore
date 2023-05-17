@@ -6,3 +6,7 @@ node_modules/
 public/
 .deploy*/
 _multiconfig.yml
+#暂时将所有包管理的lock文件全部添加入.gitignore，应该不会出现兼容性问题（或许吧）
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
