@@ -43,5 +43,6 @@ jobs:
         BRANCH: main
         FOLDER: docs
         TARGET_FOLDER : docs
+        GIT_CONFIG_EMAIL: git@hirrao.com
         REPOSITORY_NAME: hirrao/blog
         BASE_BRANCH: main
