@@ -34,7 +34,7 @@ jobs:
       run: hexo clean && sudo rm -rf docs
 
     - name: Generate 
-      run: hexo gengerate && mv public docs
+      run: hexo generate && mv public docs
 
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@3.7.1
