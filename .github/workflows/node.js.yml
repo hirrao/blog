@@ -9,6 +9,9 @@ on:
   pull_request:
     branches: [ "main" ]
 
+permissions:
+  contents: write
+
 jobs:
   build:
 
@@ -16,7 +19,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [20.x]
+        node-version: [22.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
@@ -43,6 +46,5 @@ jobs:
         BRANCH: main
         FOLDER: docs
         TARGET_FOLDER : docs
-        GIT_CONFIG_EMAIL: git@hirrao.com
         REPOSITORY_NAME: hirrao/blog
         BASE_BRANCH: main
