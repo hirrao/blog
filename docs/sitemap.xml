@@ -4,16 +4,7 @@
   <url>
     <loc>https://www.hirrao.com/2023/04/%E9%BB%98%E8%AE%A4%E9%A1%B5%E9%9D%A2/</loc>
     
-    <lastmod>2025-02-19</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hirrao.com/categories/index.html</loc>
-    
-    <lastmod>2025-02-19</lastmod>
+    <lastmod>2025-03-22</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -22,16 +13,16 @@
   <url>
     <loc>https://www.hirrao.com/about/index.html</loc>
     
-    <lastmod>2025-02-19</lastmod>
+    <lastmod>2025-03-22</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.hirrao.com/about/%E5%9B%BE%E7%89%87%E6%9D%A5%E6%BA%90/index.html</loc>
+    <loc>https://www.hirrao.com/categories/index.html</loc>
     
-    <lastmod>2025-02-19</lastmod>
+    <lastmod>2025-03-22</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -40,7 +31,7 @@
   <url>
     <loc>https://www.hirrao.com/search/index.html</loc>
     
-    <lastmod>2025-02-19</lastmod>
+    <lastmod>2025-03-22</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -49,7 +40,16 @@
   <url>
     <loc>https://www.hirrao.com/tags/index.html</loc>
     
-    <lastmod>2025-02-19</lastmod>
+    <lastmod>2025-03-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hirrao.com/about/%E5%9B%BE%E7%89%87%E6%9D%A5%E6%BA%90/index.html</loc>
+    
+    <lastmod>2025-03-22</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -58,7 +58,7 @@
 
   <url>
     <loc>https://www.hirrao.com/</loc>
-    <lastmod>2025-02-19</lastmod>
+    <lastmod>2025-03-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
